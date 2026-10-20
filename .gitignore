@@ -1,0 +1,23 @@
+# Build inputs and outputs produced by tools/ or the Actions workflow
+/build-inputs/
+/verification/
+/jitcheck/
+/smoke-results/
+/artifacts/
+.tools/
+
+# Visual Studio / .NET
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.binlog
+TestResults/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Python
+__pycache__/
